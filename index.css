@@ -1,0 +1,42 @@
+*{
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    }
+    
+    body{
+    background-color: yellowgreen;
+    }
+    
+    #imgbx {
+        display: flex;
+        position: relative;
+        z-index: -1;
+        clear: both;
+    }
+    
+    #imgbx img {
+        width: 70px;
+        position: relative;
+        top: 200px;
+    }
+    
+    
+    #button {
+        display: block;
+        position: absolute;
+        top: 280px;
+        margin: 0 auto;
+        left: 199px;
+    }
+    
+    #button button {
+        background: aquamarine;
+        padding: 4px 15px;
+        border-radius: 30px;
+        left: 490px;
+        position: relative;
+        margin: 3px;
+    }
+    
